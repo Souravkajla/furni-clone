@@ -1,0 +1,137 @@
+#header {
+  background-color: #3b5d50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px 0px 80px;
+  height: 12vh;
+}
+
+.furni {
+  display: flex;
+  font-family: "rubik", sans-serif;
+  font-size: 30px;
+  color: #f5f7f6;
+  font-weight: 600;
+}
+
+#dot {
+  color: #899e96;
+}
+
+.head-fonts {
+  display: flex;
+  gap: 100px;
+}
+
+.header-txt {
+  display: flex;
+  gap: 30px;
+  font-family: "rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ced6d6;
+  cursor: pointer;
+}
+
+.header-txt div {
+  border-bottom: 3px solid transparent;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.header-txt div:hover {
+  color: #f5f7f6;
+}
+
+.header-txt div::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #f9bf29;
+  transition: width 0.3s;
+}
+
+.header-txt div:hover::before {
+  width: 100%;
+}
+
+.fonts-icon {
+  display: flex;
+  color: #f5f7f6;
+  gap: 20px;
+  font-size: 20px;
+}
+
+#big-header {
+  background-color: #3b5d50;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+}
+
+#big-header-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 100px;
+  padding-left: 70px;
+}
+
+.modern-interior {
+  color: #f5f7f6;
+  font-size: 40px;
+  font-family: "rubik", sans-serif;
+  font-weight: 600;
+  width: 400px;
+}
+
+.just-txt {
+  color: #91a49d;
+  font-size: 14px;
+  font-family: "rubik", sans-serif;
+  width: 400px;
+}
+
+#shop-now {
+  font-family: "rubik", sans-serif;
+  color: #3b5d50;
+  background-color: #f9bf29;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 60px;
+  font-size: 16px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+#shop-now:hover {
+  background-color: #f8b810;
+}
+
+#explore {
+  font-family: "rubik", sans-serif;
+  color: #f5f7f6;
+  border-radius: 60px;
+  padding: 15px 30px;
+  background-color: transparent;
+  border: 2px solid #91a49d;
+  font-size: 16px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+#explore:hover {
+  border: 2px solid#f5f7f6;
+}
+
+.sofa-image {
+  position: absolute;
+  top: 3%;
+  left: 42%;
+}
