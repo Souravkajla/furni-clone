@@ -217,9 +217,3 @@ new styling**** */
   transition: all 0.3s;
   cursor: pointer;
 }
-
-@media screen and (max-width: 640px) {
-  .chairs-img {
-    height: vh;
-  }
-}
